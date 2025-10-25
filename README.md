@@ -1,2 +1,17 @@
-# Student_exam_analyzer
- A lightweight Python app that manages and analyzes student exam marks using classic DSA (linked list, stack, sorting, searching). Includes undo, JSON/SQLite persistence, CLI, Tkinter &amp; Flask UIs, and matplotlib charts. Perfect for showcasing data structures, algorithms, and full-stack Python skills.
+# Student Exam Result Analyzer
+
+A Python CLI project demonstrating data structures (Linked List, Stack), sorting, searching and optional visualization using matplotlib.
+
+Project structure
+
+- main.py - CLI entry point
+- models.py - Student and linked list implementation
+- stack.py - Undo stack
+- analysis.py - Sorting, searching, and analysis functions
+- storage.py - JSON persistence
+- requirements.txt - required packages
+
+Run:
+
+pip install -r requirements.txt
+python main.py

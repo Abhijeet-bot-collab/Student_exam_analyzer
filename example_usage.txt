@@ -1,0 +1,7 @@
+Example flow:
+1. python main.py
+2. Add Student -> Roll:1, Name: Satish, Marks: Math:90,CS:85,Eng:88
+3. Add Student -> Roll:2, Name: Riya, Marks: Math:78,CS:92,Eng:80
+4. Top N -> 1
+5. Delete Roll -> 2
+6. Undo Last Action -> restores Riya
